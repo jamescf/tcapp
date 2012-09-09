@@ -1,8 +1,8 @@
 {
     "main":"public/javascripts/mytest.js",
-    "name":"New Relic",
-    "description": "A CloudFlare application uses New Relic",
-    "version": "0.0.1",
+    "name":"FlareRelic",
+    "description": "A CloudFlare application uses FlareRelic",
+    "version": "0.0.2",
     "account": {
         "callback_url": "http://countersback.herokuapp.com/api",
         "user_fields": ["email"]
