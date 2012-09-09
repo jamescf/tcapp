@@ -1,8 +1,8 @@
 {
-    "main":"public/javascripts/countersback.js",
-    "name":"Counters Back",
-    "description": "A sample CloudFlare application that brings counters back",
-    "version": "0.0.4a",
+    "main":"public/javascripts/mytest.js",
+    "name":"New Relic",
+    "description": "A CloudFlare application uses New Relic",
+    "version": "0.0.1",
     "account": {
         "callback_url": "http://countersback.herokuapp.com/api",
         "user_fields": ["email"]
@@ -11,11 +11,11 @@
         "type": "zone",
         "plans":[
             {
-                "name" : "Chowder",
+                "name" : "Basic",
                 "price": "3.20"
             },
             {
-                "name" : "Minestrone",
+                "name" : "Advanced",
                 "price" : "6.55"
             }
         ]
@@ -39,25 +39,18 @@
         },
         "interface": [
             {
-                "type": "string",
-                "name": "Favorite Food",
-                "description": "Please tell us your favorite food.",
-                "id": "food",
-                "domain_request": true
-            },
-            {
-                "id": "lottery",
+                "id": "complexity",
                 "type": "select",
-                "name": "Do you Lotto?",
-                "description": "Choose whether to buy a ticket",
+                "name": "Complexity Level",
+                "description": "Choose the graphing complexity",
                 "options": [
                     {
-                        "label": "Yes, buy a ticket!",
-                        "value": "true"
+                        "label": "Basic",
+                        "value": "0"
                     },
                     {
-                        "label": "No, I am scared.",
-                        "value": ""
+                        "label": "Advanced",
+                        "value": "1"
                     }
                 ]
             }
