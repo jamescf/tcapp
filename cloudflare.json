@@ -2,7 +2,7 @@
     "main":"public/javascripts/mytest.js",
     "name":"FlareRelic",
     "description": "A CloudFlare application uses FlareRelic",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "account": {
         "callback_url": "http://countersback.herokuapp.com/api",
         "user_fields": ["email"]
